@@ -1,0 +1,336 @@
+
+.br-r{border: solid red 3px;}
+.br-p{border: solid purple 3px;}
+.h{min-height: 100vh;}
+html{
+    overflow-x: hidden;
+}
+*{
+    font-family: arial; padding: 0; margin: 0; box-sizing: border-box;
+}
+
+.nav-button:hover{
+    border: solid white 3px!important;
+    background-color: black!important;
+    padding: 15px 30px;
+   
+}
+.nav-font:hover{
+    color: goldenrod!important;
+    
+}
+
+/* first-section */
+.first-sec-left{
+    min-height: 650px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+
+    
+}
+.first-sec-right{
+    min-height: 650px;
+    padding: 40px 0 0 30px;
+    
+    
+}
+.second-sec-left{
+    height: 100vh;
+    overflow: hidden;
+}
+.second-sec-left:hover{
+    border: solid goldenrod 3px;
+}
+
+.second-sec-left:hover img{
+   
+    margin-top: -100px;
+    transition: 1s ease-in-out;
+}
+
+
+.second-sec-right{
+    height: 100vh;
+    overflow: hidden;
+}
+.second-sec-right:hover{
+    border: solid goldenrod 3px;
+}
+.second-sec-right:hover img{
+    margin-top: -100px;
+    transition: 1s linear;
+}
+.third-sec-box{
+    background-image: url(15.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    background-size: 100%;
+   
+}
+.third-sec-box:before{
+    content:' ';
+    position: absolute;
+    background-color: rgba(10, 10, 10, 0.51);
+    width: 100%;
+    height: 450px;
+    top: 0;
+    left: 0;
+
+}
+.third-sec-card{
+    position: absolute;
+    z-index: 11111;
+    top: 100px;
+    left: 110px;
+    
+}
+.fourth-sec-left{
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+
+}
+.fourth-sec-right{
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.fifth-sec-card{
+    min-height: 600px;
+    /* border: solid green 3px; */
+    background-color: rgba(56, 56, 56, 0.392);
+    position: relative;
+    
+}
+.fifth-sec-image{
+    /* border: solid red 3px ; */
+    position: absolute;
+    top: 0;
+    right: 0px;
+}
+
+.sixth-left-one{
+    position: absolute;
+    bottom: 20px;
+    
+}
+.sixth-left-two{
+    position: absolute;
+    top: 146px;
+    left: 145px;
+
+}
+.sixth-left-three{
+    position: absolute;
+    top: 146px;
+    right: 145px;
+}
+.sixth-right-one{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+.sixth-right-two{
+    position: absolute;
+    top: 310px;
+    left: 255px;
+
+}
+.seventh-sec-one{
+    position: absolute;
+    top: 180px;
+    left: 1000px;
+}
+.seventh-sec-two{
+    position: absolute;
+    bottom: 0px;
+    left: 100px;
+}
+.eight-sec-one{
+    position: absolute;
+    top: 235px;
+    left: 70px;
+}
+.eight-sec-two{
+    position: absolute;
+    top: 80px;
+    right: 250px;
+}
+.eight-sec-three{
+    position: absolute;
+    bottom: 40px;
+    left: 20px;
+}
+.nineth-sec-one{
+    position: absolute;
+    top: 380px;
+    left: 40px;
+}
+.nineth-sec-two{
+    position: absolute;
+    top: 230px;
+    left: 200px;
+    /* border: solid pink 3px; */
+
+}
+.nineth-sec-three{
+    position: absolute;
+    top: 150px;
+    left: 500px;
+    /* border: solid green 3px; */
+}
+.tenth-left-one{
+    position: absolute;
+    top: 33px;
+    left: 120px;
+    rotate: -20deg;
+
+}
+.tenth-right-one{
+    min-height: 370px;
+    border: solid rgba(128, 128, 128, 0.266) 2px; 
+    background-color: rgba(56, 56, 56, 0.392);
+    position: relative;
+    overflow: hidden;
+   
+}
+
+.tenth-image-one{
+    /* border: solid red 3px; */
+    background-image: url(50.png);
+    width: 100%;
+    height: 250px;
+    background-position: center;
+    background-size: 500px;
+    background-repeat: no-repeat;
+    margin-left: 150px;
+    position: absolute;
+    bottom: 0;
+    overflow: hidden;
+}
+.tenth-image-two{
+    position: absolute;
+    top: 155px;
+    left: 370px;
+}
+
+.tenth-right-two{
+    min-height: 370px;
+    border: solid rgba(128, 128, 128, 0.266) 2px; 
+    background-color: rgba(56, 56, 56, 0.392);
+}
+.ele-text-sec{
+    width: 300px;
+    height: 80px;
+    border: solid white 3px;
+    background-color: rgb(239, 97, 239);
+    padding: 10px;
+    font-size: 50px;
+}
+.ele-left-two{
+    position: absolute;
+    top: 130px;
+    left: 150px;
+    /* border: solid red 3px; */
+}
+.twelve-sec-card{
+    /* border: solid red 3px; */
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 0 0 0 50px;
+}
+.twelve-image-box{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(40, 38, 38);
+    /* border: solid red 3px; */
+}
+.twelve-sec-card:hover .twelve-image-box{
+    background-color: rgb(237, 197, 97);
+    
+}
+.twelve-sec-card:hover .twelve-image-box i{
+    color: rgb(50, 50, 50) !important;
+}
+.fourteen-sec-card{
+    border: solid rgba(128, 128, 128, 0.266) 2px;
+    width: 40%;
+    height: 320px;
+    padding: 50px;
+}
+.fourteen-image-sec{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid rgba(128, 128, 128, 0.266) 2px; 
+    background-color: rgba(56, 56, 56, 0.392);
+}
+.fourteen-image-sec img{
+   width: 85%;
+   object-fit: cover;
+}
+.slider-section{
+    animation-name: slider;
+    animation-timing-function: linear;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+@keyframes slider{
+    from{
+        transform: translateX(1%);
+    }
+    to{
+        transform: translateX(-190%);
+    }
+}
+.fifteen-section{
+    /* border: solid pink 3px; */
+    width: 260px;
+    /* height: 350px; */
+}
+.fifteen-sec-card{
+    /* border: solid green 3px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.fifteen-img-sec{
+    border: solid rgba(128, 128, 128, 0.266) 2px; 
+    height: 150px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fifteen-img-sec:hover{
+    border: solid  rgb(237, 197, 97) 2px;
+
+}
+.fifteen-sec-card img{
+    width: 98px;
+    height: 98px;
+}
+.fifteen-sec-text{
+    padding: 20px;
+    font-weight: bold;
+}
